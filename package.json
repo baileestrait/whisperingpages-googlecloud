@@ -1,0 +1,27 @@
+{
+  "name": "whisperingpages-googlecloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baileestrait/whisperingpages-googlecloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baileestrait/whisperingpages-googlecloud/issues"
+  },
+  "homepage": "https://github.com/baileestrait/whisperingpages-googlecloud#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
