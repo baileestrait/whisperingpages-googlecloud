@@ -1,28 +1,34 @@
 {
-  "name": "whisperingpages-googlecloud",
+  "name": "bookworm-bath-and-beyond",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.mjs",
+  "description": "stuff",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.mjs"
-  },
-  "engines": {
-    "node": ">=18"
+    "dev": "nodemon app.mjs",
+    "start": "node app.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baileestrait/whisperingpages-googlecloud.git"
+    "url": "git+https://github.com/ehb2004/bookworm-bath-and-beyond.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/baileestrait/whisperingpages-googlecloud/issues"
+    "url": "https://github.com/ehb2004/bookworm-bath-and-beyond/issues"
   },
-  "homepage": "https://github.com/baileestrait/whisperingpages-googlecloud#readme",
+  "homepage": "https://github.com/ehb2004/bookworm-bath-and-beyond#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "bootstrap": "^5.3.8",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
